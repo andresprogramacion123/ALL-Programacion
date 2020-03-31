@@ -1,0 +1,138 @@
+<hmtl>
+	<head>
+		<title>Plantilla de html.</title>
+		<link rel="stylesheet" href="hola.py">
+		<link rel="shortcut icon" type="image/x-icon" href="imagen.ico">
+	</head>
+	<body>
+
+		<p>
+			Hola a partir de ahora vamos a comenzar a documentar como escribir y realizar codigo en html.
+			Vamos a observar algunas etiquetas y a relizar una plantilla generica. <br>
+			HTML es un lenguaje de estructura que va de la mano con CSS y Javascript.<br>
+			La manera de realizar un codigo en HTML es a partir de <b>etiquetas</b> las cuales se encuentran en el interior de los simbolos menor que y mayor que. La gran mayoria de etiquetas se deben cerrar y abrir. La manera de abrirlas es poniendo su nombre en el interior de los dos simbolos y la manera de cerrarla es ubicar el nombre de la etiqueta donde lo antecede el simbolo / en el interior de las desigualdades.
+		</p>
+		<p>
+			<b>Ahora veamos como es que se escribe un documento HTML.</b><br>
+			Siempre a la hora de comenzar a realizar un codigo en HTML se debe comenzar con la etiqueta <b>html</b>, la anterior etiqueta no debe faltar y debe cerrarse al final del documento.<br>
+			Seguido de la etiqueta <b>html</b> continuamos con la etiqueta <b>head</b> tambien llamada cabecera.
+			Esta etiqueta contiene informacion que el usuario no puede ver y que se hace util para el navegador. De nuevo esta etiqueta hay que cerrarla.<br>
+			Segudidamente esta la etiqueta <b>body</b> o cuerpo esta es la etiqueta donde se va comenzar a escribir todo lo que va contener la pagina web y que corresponde a lo que va observar el usuario.<br>
+			De esta manera tenemos lo mas fundamental para comenzar a realizar un codigo en html, por el momento las etiquetas <b>html, head y body</b> son las etiquetas fundamentales y que no deben faltar a la hora de realizar un script en html.<br>
+		</p>
+		<p>
+			Ahora veamos el uso de mas etiquetas y sus atributos.
+			Vamos a comenzar con la etiquea <b>h1</b>. La etiqueta <b>h1</b> es una etiqueta utilizada para poner titulos en la pagina web. Se debe tener en cuenta que por pagina web solo debe de haber un titulo, es decir, la etiqueta <b>h1</b> solo debe aparecer una vez en codigo. <br>
+			<h1>
+				Esto es un titulo con etiqueta h1.<br>
+			</h1>
+			Ahora aparte de la etiqueta <b>h1</b> hay ademas etiquetas <b>h2, h3, h4, h5 y h6</b> as cuales corresponden a subtitulos y con un tamaño de letra menor comparado con <b>h1</b>.
+
+			<h2>
+				Esto es un subitulo con etiqueta h2. <br>
+			</h2>
+			Seguidamente tenemos las etiquetas <b>p</b> y <b>br</b> la etiqueta <b>p</b> corresponde a escribir un parrafo en el documento y la etiqueta <b>br</b> la cual no se cierra corresponde a un salto de linea.<br>
+
+			Nota: Recordar que la parte visual de la pagina web se modifica con css.<br>
+
+			Ahora seguimos con la etiqueta <b>b</b> y/o <b>strong</b> la cual es letras en negrita. La etiqueta <b>i</b> es para letras en cursiva.<br>
+			La etiqueta <b>span</b> sirve para que con css se le agregue estilo aunque no se ve reflejado en html.<br>
+
+			La etiqueta <b>blockquote</b> sirve para agregar una cita bien sea hacia un articulo u otra cosa.<br>
+
+			La etiqueta <b>cite</b> sirve para agregar autor correspondiente a la cita que se escribio, se puede agregar al inicio o al final
+			La etiqueta <b>hr</b> sirve para agregar una linea separadora, esta etiqueta no se abre sino por el contrario se cierra.<hr/>
+			<blockquote>
+				Estamos observando el uso de la etiqueta <b>blockquote</b>, la cual es util para citas.
+			</blockquote>
+			<cite>Vemos uso de la etiqueta <b>cite</b> la cual puede sirvir para agregar autores correspondientes a una cita</cite>
+		</p>
+
+		<hr/>
+
+		<h2>Ahora veamos el uso de enlaces</h2>
+
+		<p>
+			Los enlaces son aquellos textos subrayados los cuales al darle click nos envia hacia otro lugar.
+			La forma de generar un enlace es con la etiqueta <b>a</b> donde esta etiqueta en su interior posee un atributo llamado <b>href</b> el cual corresponde al enlace (URL) o lugar al que queremos que nos envie el texto. Para el caso de una URL es necesario agregar el protocolo https. Debemos de tener en cuenta que lo anterior es con una <b>ruta absoluta.</b><br>
+			Hay dos tipos de rutas: ruta absoluta y ruta relativa.<br>
+			<b>La ruta relativa</b> hace referencia a un archivo que se encuentra en la misma carpeta o en una caperta inferior a la ruta donde esta el archivo HTML.<br>
+
+			Ahora al hacer click en el enlace lo que hace es que nos envia a este lugar pero nos desaparece nuestro sitio web. Para seguir conservando nuestro sitio web y que se abra el enlace en otra pestaña lo que hacemos es poner un atributo en la etiqueta <b>a</b> el cual se llama <b>target="_blank"</b> de manera que al hacer click nos conserva el sitio web y abre en una nueva pestaña el enlace.<br>
+
+			<a href="http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/">Mi primir enlace de ir a la UdeA</a> <br>
+
+			<a target="_blank" href="http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/">Mi primir enlace de ir a la UdeA en otra pestaña</a> <br>
+
+			<a href="imagen.jpg">Otro enlace en la carpeta</a><br>
+
+			Ahora veamos otros tipos de enlaces.<br>
+			Por ejemplo supongamos que queremos un enlace para un archivo o script de python. Para esto hay unos enlaces especiales.<br>
+			Utilizamos la etiqueta <b>link</b> con el atributo <b>rel</b> y <b>href</b>  que es donde va el archivo.<br>
+			El otro link va en el la etiqueta <b>body</b> y es el link o etiqueta <b>script</b> el cual se le puede agregar el atributo <b>src</b> el cual es la ruta y nos enlace a este archivo.<br>
+			Otro link es para agregar nuestro propio icono y este link va en la etiqueta head.
+
+		</p> <hr/>
+		<p>
+			<h2>Ahora veamos el tema de listas</h2>
+
+			Hay dos tipos de listas: <b>listas ordenadas</b> y <b>listas desordenadas.</b><br>
+			<b>Listas desordenadas:</b> se agregan con la etiqueta <b>ul</b> y en su interior va la etiqueta <b>li,</b> luego en la etiqueta <b>li</b> podemos aplicar la etiqueta <b>a</b> que es para enlaces para convertir este item en enlace.<br> Vale aclarar que dentro de una lista podemos tener mas listas.<br>
+
+			Estas listas desordenadas se suelen utilizar en las paginas web para hacer menu de navegacion o para mostrar contenido.<br>
+
+			Ahora veamos las listas ordenadas.<br>
+			<b>La lista ordenada:</b> se forma con la etiqueta <b>ol,</b> y de nuevo va en su interior la etiqueta <b>li</b> donde a su vez podemos tener mas listas en cada item.<br>
+			Las listas ordenadas no se suelen utilizar mucho aunque pueden ser utilizadas para representar datos.
+		</p>
+
+		<p>
+			<h2>lista desordenada</h2>
+
+			<ul>
+				<li><a href="#item1">item 1</a></li>
+				<li> item2
+					<ul>
+						<li> item 2-1</li>
+						<li> item 2-2</li>
+					</ul> 
+				</li>
+
+				<li> item 3</li>
+				<li> item 4</li>
+			</ul>
+
+ 			<h2 d="item1">item 1</h2>
+
+
+			<h2>lista ordenada</h2>
+
+			<ol>
+				<li> item 1</li>
+				<li> item 2
+					<ol>
+						<li> item 2-1</li>
+						<li> item 2-2</li>
+					</ol>
+				</li>
+				<li> item 3</li>
+				<li> item 4</li>
+			</ol>
+		</p>
+
+		<hr/>
+
+		<h2>Veamos el tema de imagenes</h2>
+		<p>
+			La etiqueta para agregar imagenes es <b>img</b> la cual posee varios atributos y se cierra por si sola es decir al finalizar se escribe el simbolo /.<br>
+			Se le debe indicar la ruta de la imagen por medio del atributo <b>src,</b> en caso de que se quiera cambiar el tamaño de la imagen agregamos el atributo <b>width</b> y <b>height</b>. Otro atributo muy importante es el atributo <b>alt</b> el cual consiste en poner el nombre de la imagen y que saldra en caso de que la imagen no cargue o de que su ruta este equivocada y por ultimo otro atributo es title el cual consiste en ponerle titulo a la imagen que solo sale cuando el click esta encima de la imagen
+		</p>
+		<h2>Imagen con ruta relativa</h2>
+		<img src="imagen.jpg" alt="logo de ALL-programacion" width="100" title="Logo de ALL-p"/>
+		<h2>Imagen con ruta absoluta</h2>
+		<img src="https://www.65ymas.com/uploads/s1/13/36/43/bigstock-four-toed-hedgehog-african-py-235805998_1_621x621.jpeg" alt="logo de ALL-programacion" width="100" title="Logo de ALL-p"/>
+
+
+
+	</body>
+</hmtl>
