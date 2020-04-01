@@ -3,6 +3,7 @@
 		<title>Plantilla de html.</title>
 		<link rel="stylesheet" href="hola.py">
 		<link rel="shortcut icon" type="image/x-icon" href="imagen.ico">
+		
 	</head>
 	<body>
 
@@ -131,6 +132,90 @@
 		<img src="imagen.jpg" alt="logo de ALL-programacion" width="100" title="Logo de ALL-p"/>
 		<h2>Imagen con ruta absoluta</h2>
 		<img src="https://www.65ymas.com/uploads/s1/13/36/43/bigstock-four-toed-hedgehog-african-py-235805998_1_621x621.jpeg" alt="logo de ALL-programacion" width="100" title="Logo de ALL-p"/>
+		<hr/>
+
+		<h2>Veamos el tema de tablas</h2>
+		<p>
+			Una tabla se usa para tabular contenidos, es decir, tener un tabla y llenarla de datos para mostrar datos o estadistica.<br>
+			Para crear una tabla utilizamos la etiqueta <b>table</b>, luego agregamos el numero de filas y columnas. Las filas se agregan con la etiqueta <b>tr</b> y dentro de cada fila ponemos la etiqueta <b>td</b> que corresponde a la columna.
+		</p>
+
+		<table>
+			<tr>
+				<td> elemento 11</td>
+				<td> elemento 12</td>
+				<td> elemento 13</td>
+			</tr>
+			<tr>
+				<td> elemento 21</td>
+				<td> elemento 22</td>
+				<td> elemento 23</td>
+			</tr>
+			<tr>
+				<td> elemento 31</td>
+				<td> elemento 32</td>
+				<td> elemento 33</td>
+			</tr>
+		</table>
+		<hr/>
+		<h2>Veamos el tema de los formularios</h2>
+		<p>
+			Un formulario es una parte de nuestro sitio web donde el usuario puede interactuar ingresando texto o datos y la pagina los procesa y luego envia una respuesta.<br/>
+			La etiqueta de formulario es la etiqueta <b>form</b> la cual puede rebir varios atributos.<br>
+			Uno de los atributos es <b>action="URL"</b> el cual recibe como valor una URL que se encarga de procesar los datos del formulario y el otro atributo es <b>method="POST"</b> o <b>method="GET"</b> el cual veremos mas adelante.<br/>
+			Dentro de la etiqueta <b>form</b> se encuentras varias etiquetas:<br>
+			la etiqueta <b>input</b> la cual es la encargada de recibir el valor a ingresar. Tiene varios atributos entre ellos tenemos <b>type=""</b> el cual corresponde a los valores que va recibir si es el caso de texto entonces <b>type="texto",</b> otro atributo es <b>value=""</b> el cual me dice que debe de ingresar el usuario el problema es que toca borrar el mensaje. Por esta razon el atributo <b>placeholder="Escribe tu nombre"</b> es mas utilizado pues no es necesario borrar en la caja de texto.<br/> Otro atributo es <b>size=""</b> el cual es el tamaño de la caja de texto, otro atributo es <b>maxlength="23"</b> el cual corresponde al numero maximo de caracteres que se permite. otro atributo es <b>name="ussuario"</b> lo cual es importante a la hora de enviar los datos, el <b>id</b> es otro atributo para asignar a otras etiquetas.
+			Si agregamos atributo <b>type="password"</b> permite ingresar contraseñas pero sin poderse ver.<br>
+
+			<b>type="email"</b> sirve para corraborar que se ingresa un correo.<br/>
+			Otro atributo <b>type</b> es <b>type="checkbox"</b> o <b>type="radio",</b> tambien esta <b>type=button"</b> y <b>value="enviar"</b> que no realiza ninguna accion.
+			Para un buton que realice una opcion el atributo es <b>type="submit"</b> y permite enviar los datos.<br>
+			Otra etiqueta que se tiene es <b>select</b> y en cual podemos poner otra etiqueta que permita escoger opciones con la etiqueta <b>option</b>
+		</p>
+		<h2>Veamos las etiquetas anteriores y muchas mas para ingresar datos</h2>
+		<form action="file:///home/andres/Escritorio/" method="POST">
+			<label for="text1">Escribe algo:</label>
+			<input type="texto" name="texto" value="Ingresa texto"><br>
+			<label for="text1">Escribe algo:</label>
+			<input type="texto" name="texto" placeholder="Ingresa texto" size="200" maxlength="12"><br>
+			<label for="text1">Escribe correo: </label>
+			<input type="email" name="texto" placeholder="email" size="30" maxlength="12"><br>
+			<label for="text1">Escribe contraseña: </label>
+			<input type="password" name="texto" placeholder="contraseña" size="30" maxlength="12"><br>
+			<input type="checkbox" name="texto" placeholder="contraseña" size="30" maxlength="12"><br>
+			<input type="radio" name="texto" placeholder="contraseña" size="30" maxlength="12"><br>
+			<input type="button" value="enviar" name="texto" placeholder="contraseña" size="30" maxlength="12"><br>
+			<input type="submit" value="enviar si hace algo" name="texto" placeholder="contraseña" size="30" maxlength="12"><br>
+			<select>
+				<option>Medellin</option>
+				<option>Bogota</option>
+				<option>Barranquilla</option>
+			</select><br>
+			<table>
+  				<tbody>
+    				<tr>
+      					<th>Sexo</th>
+      					<th></th>
+    				</tr>
+    				<tr>
+      					<td><input type="radio" name="hm" value="h" id="h"></td>
+     					 <td><label for="h">Hombre</label></td>
+    				</tr>
+    				<tr>
+      					<td><input type="radio" name="hm" value="m" id="m"></td>
+						<td><label for="m">Mujer</label></td>
+    				</tr>
+  				</tbody>
+			</table>
+			</select>
+			<input type="range" name="rango" min="0" max="1" step="0.1"><br>
+			<input type="color" name="colorElegido" value="#ff0000"><br>
+			<input type="datetime-local" name="fechaHora"><br>
+			<input type="file" name="archivo" value="image/*"><br>
+			<hr>
+
+
+		</form>
 
 
 
