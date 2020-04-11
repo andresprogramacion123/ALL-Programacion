@@ -1,4 +1,4 @@
-# {ALL}-Programacion
+# [ALL]-Programacion
 
 [ALL]-Programacion es un repositorio dedicado a resolver dudas de programacion. 
 
